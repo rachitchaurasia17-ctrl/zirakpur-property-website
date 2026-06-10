@@ -1,5 +1,5 @@
 /* ───────────────────── IntroTunnel ─────────────────────
-   Cinematic 3D fly-through intro for THIRD ROCK REALTY.
+   Cinematic 3D fly-through intro for Zirakpur Property.
    Deep blue room with massive navy display type,
    dissolves into the dark site behind it.
 */
@@ -8,7 +8,7 @@
   position: fixed;
   inset: 0;
   z-index: 100;
-  background: #0d3b7a;          /* deep blue — Third Rock brand */
+  background: #0d3b7a;          /* deep blue — Zirakpur Property brand */
   overflow: hidden;
   transition:
     opacity 0.95s cubic-bezier(0.7, 0, 0.2, 1),
@@ -85,7 +85,7 @@
   line-height: 0.86;
   letter-spacing: -0.04em;
   white-space: nowrap;
-  color: #061a3d;                  /* deep navy, Third Rock brand */
+  color: #061a3d;                  /* deep navy, Zirakpur Property brand */
   opacity: 1;
   text-transform: uppercase;
 }
@@ -170,7 +170,7 @@
   padding: 0 20px;
 }
 
-/* Mobile — guarantee "THIRD ROCK REALTY" + lockup fits one frame at any width */
+/* Mobile — guarantee "Zirakpur Property" + lockup fits one frame at any width */
 @media (max-width: 768px) {
   .intro-logo {
     font-size: clamp(28px, 11vw, 72px);

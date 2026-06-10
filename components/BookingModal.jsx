@@ -104,7 +104,7 @@ function BookingModal({ open, onClose }) {
       <div className={"bm-shell " + (open ? "open" : "")} role="dialog" aria-label="Schedule a viewing">
         <header className="bm-head">
           <div>
-            <div className="bm-eyebrow"><span className="bm-rule"/>Third Rock Realty · Reservation Desk</div>
+            <div className="bm-eyebrow"><span className="bm-rule"/>Zirakpur Property · Reservation Desk</div>
             <div className="bm-title">Schedule a Viewing</div>
           </div>
           <div className="bm-head-actions">

@@ -90,7 +90,7 @@ function Nav({ onContact }) {
             <Crown dark={onDark} />
             <div style={{ lineHeight: 1.05 }}>
               <div className="clash" style={{ fontSize: 20, letterSpacing: "-0.03em", color: navInk, transition: "color 250ms ease" }}>
-                Third Rock <span style={{ fontFamily: "Gambarino, Georgia, serif", fontStyle: "italic", fontWeight: 400, letterSpacing: "-0.02em" }}>Realty</span>
+                Zirakpur Property <span style={{ fontFamily: "Gambarino, Georgia, serif", fontStyle: "italic", fontWeight: 400, letterSpacing: "-0.02em" }}>Realty</span>
               </div>
               <div className="uc" style={{ fontSize: 10, color: navMute, letterSpacing: "0.16em", transition: "color 250ms ease" }}>Real Estate Agency · Mohali</div>
             </div>
@@ -434,7 +434,7 @@ function Manifesto() {
           We do not sell <em>square feet</em>. We place <em>capital</em> where the city is going — quietly, between long-standing buyers and sellers, on titles that arrive at the closing table already clean.
         </blockquote>
         <div className="manifesto-credit">
-          <span className="manifesto-sig">— Third Rock Realty</span>
+          <span className="manifesto-sig">— Zirakpur Property</span>
           <span className="manifesto-role">Real Estate Agency · Mohali</span>
         </div>
         <div className="manifesto-grid">
@@ -992,7 +992,7 @@ function Principal() {
         <div className="principal-grid">
           <div>
             <div className="principal-frame">
-              <img src="assets/sachdeva-about.jpg" alt="Third Rock Realty office interior" />
+              <img src="assets/sachdeva-about.jpg" alt="Zirakpur Property office interior" />
             </div>
             <div className="principal-credits">
               <div className="principal-credit">
@@ -1015,7 +1015,7 @@ function Principal() {
           </div>
           <div className="principal-right">
             <div className="manifesto-eyebrow" style={{ marginBottom: 0 }}>Our Expertise · Mohali Tri-City</div>
-            <h2 className="principal-name">Third Rock <em>Realty</em></h2>
+            <h2 className="principal-name">Zirakpur Property <em>Realty</em></h2>
             <p className="principal-bio">
               Dedicated to placing quality property in the Mohali tri-city. We specialize in residential, commercial and land mandates — known for thorough consultancy and transparent guidance from discovery to closing.
             </p>
@@ -1073,12 +1073,12 @@ function Press() {
 /* ───────────────────── Reviews (replaces Journal) ───────────────────── */
 function Reviews() {
   const all = [
-    { name: "Aman Khurana",    initial: "A", stars: 5, time: "2 months ago", text: "Third Rock Realty closed our SCO purchase end-to-end. From paperwork to registry, every detail was handled with extraordinary discretion. The most professional agency in the region." },
+    { name: "Aman Khurana",    initial: "A", stars: 5, time: "2 months ago", text: "Zirakpur Property closed our SCO purchase end-to-end. From paperwork to registry, every detail was handled with extraordinary discretion. The most professional agency in the region." },
     { name: "Priya Malhotra",   initial: "P", stars: 5, time: "3 weeks ago", text: "The title memo was a revelation — we understood everything about the property before we signed. Rare to find this level of care in Indian real estate." },
     { name: "Rohit Sandhu",     initial: "R", stars: 5, time: "1 month ago", text: "The team found us a kothi in Sector 91 that wasn't on any portal. Their relationships and market knowledge are clearly exceptional." },
     { name: "Neha Bedi",        initial: "N", stars: 5, time: "5 days ago",  text: "From the UK we trusted them blind for our NRI investment. The quarterly photographic reports and rental management have been faultless." },
     { name: "Karan Gupta",      initial: "K", stars: 5, time: "2 weeks ago", text: "Walked in for one plot, walked out understanding the entire Mohali market. Honest, patient, no hard sell — only counsel." },
-    { name: "Sunita Puri",      initial: "S", stars: 5, time: "1 month ago", text: "Three transactions with Third Rock Realty now. Their word is genuinely their bond. Wouldn't dream of going elsewhere." },
+    { name: "Sunita Puri",      initial: "S", stars: 5, time: "1 month ago", text: "Three transactions with Zirakpur Property now. Their word is genuinely their bond. Wouldn't dream of going elsewhere." },
     { name: "Vikram Ahuja",     initial: "V", stars: 5, time: "6 weeks ago", text: "The investment memo for our Sector 67 SCO was the kind of due diligence I'd expect from a top-tier law firm. Beautifully laid out." },
     { name: "Ananya Rana",      initial: "A", stars: 5, time: "3 months ago", text: "The quietest, classiest property desk in the tri-city. They place capital, they don't sell square feet." },
     { name: "Manjit Bhullar",   initial: "M", stars: 5, time: "4 months ago", text: "GMADA plot paperwork can be a nightmare. The desk handled mutation, dues and conveyance without me having to step into an office once." },
@@ -1187,7 +1187,7 @@ function About() {
 
           <div style={{ border: "1px solid var(--line)", borderRadius: 6, padding: "20px 22px", background: "var(--paper)", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 14 }}>
             <div>
-              <div className="clash" style={{ fontSize: 19, letterSpacing: "-0.02em", fontWeight: 600, lineHeight: 1.1 }}>Third Rock Realty</div>
+              <div className="clash" style={{ fontSize: 19, letterSpacing: "-0.02em", fontWeight: 600, lineHeight: 1.1 }}>Zirakpur Property</div>
               <div className="uc" style={{ fontSize: 10, color: "var(--mute)", letterSpacing: "0.16em", marginTop: 6 }}>Real Estate Agency · Mohali</div>
             </div>
             <svg width="74" height="40" viewBox="0 0 120 60" fill="none" aria-hidden="true">
@@ -1197,9 +1197,9 @@ function About() {
           </div>
 
           <a
-            href="https://www.google.com/maps/search/?api=1&query=Third+Rock+Realty+SCO+1+Sector+79+SAS+Nagar"
+            href="https://www.google.com/maps/search/?api=1&query=Zirakpur%20Property+Zirakpur"
             target="_blank" rel="noopener noreferrer"
-            onClick={(e) => { e.preventDefault(); window.open("https://www.google.com/maps/search/?api=1&query=Third+Rock+Realty+SCO+1+Sector+79+SAS+Nagar", "_blank", "noopener,noreferrer"); }}
+            onClick={(e) => { e.preventDefault(); window.open("https://www.google.com/maps/search/?api=1&query=Zirakpur%20Property+Zirakpur", "_blank", "noopener,noreferrer"); }}
             className="gs-wrap"
             style={{ position: "relative", display: "block", aspectRatio: "16/10", borderRadius: 6, overflow: "hidden", background: "#1e1e1e" }}
           >
@@ -1218,7 +1218,7 @@ function About() {
         <div>
           <div className="uc" style={{ fontSize: 11, letterSpacing: "0.18em", color: "var(--mute)", marginBottom: 24 }}>◇ About Us</div>
           <p className="clash" style={{ fontSize: "clamp(24px, 3.6vw, 48px)", letterSpacing: "-0.035em", lineHeight: 1.15, margin: 0, fontWeight: 500 }}>
-            Third Rock Realty is a <span className="serif-it">GMADA</span> empanelled and <span className="serif-it">RERA</span> registered firm specializing in residential, commercial and land mandates across the Mohali tri-city. Operating from SCO 1, 2nd Floor in Sector 79.
+            Zirakpur Property is a <span className="serif-it">GMADA</span> empanelled and <span className="serif-it">RERA</span> registered firm specializing in residential, commercial and land mandates across the Mohali tri-city. Operating from Zirakpur.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 24, marginTop: 36, borderTop: "1px solid var(--line)", paddingTop: 28 }}>
             <Credit k="Practice" v="Residential · Commercial · Land" />
@@ -1262,7 +1262,7 @@ function DeskBanner() {
             </div>
             <div className="desk-row">
               <div className="desk-row-k">By message</div>
-              <div className="desk-row-v"><a href="mailto:info@thirdrockrealty.in">info@thirdrockrealty.in</a></div>
+              <div className="desk-row-v"><a href="mailto:info@zirakpurproperty.com">info@zirakpurproperty.com</a></div>
             </div>
             <div className="desk-row">
               <div className="desk-row-k">In person</div>
@@ -1283,13 +1283,13 @@ function FooterMast() {
   return (
     <footer className="foot">
       <div className="container">
-        <h2 className="foot-mast">Third Rock <em>Realty</em></h2>
+        <h2 className="foot-mast">Zirakpur Property <em>Realty</em></h2>
         <div className="foot-cols">
           <div>
             <div className="foot-h">The Desk</div>
             <ul className="foot-list">
               <li><a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a></li>
-              <li><a href="mailto:info@thirdrockrealty.in">info@thirdrockrealty.in</a></li>
+              <li><a href="mailto:info@zirakpurproperty.com">info@zirakpurproperty.com</a></li>
               <li><span>SCO 1, 2nd Floor</span></li>
               <li><span>Sector 79 · SAS Nagar · 140308</span></li>
             </ul>
@@ -1328,7 +1328,7 @@ function FooterMast() {
         <div className="foot-bottom">
           <div className="foot-mark">
             <Crown />
-            <span>© 2026 Third Rock Realty · All rights reserved</span>
+            <span>© 2026 Zirakpur Property · All rights reserved</span>
           </div>
           <div>PB-RERA · GMADA · JLPL Empanelled</div>
         </div>
@@ -1352,8 +1352,8 @@ function ContactBanner() {
           <div style={{ display: "flex", flexDirection: "column", gap: 12, alignItems: "flex-end" }}>
             <a href="tel:+91XXXXXXXXXX" className="clash" style={{ fontSize: "clamp(22px,3.5vw,28px)", letterSpacing: "-0.02em", fontWeight: 600 }}>+91 XXXXX XXXXX</a>
             <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" style={{ fontSize: 16, color: "var(--mute)" }}>WhatsApp · +91 XXXXX XXXXX</a>
-            <a href="mailto:info@thirdrockrealty.in" className="uc" style={{ fontSize: 11, letterSpacing: "0.16em", marginTop: 8, borderBottom: "1px solid var(--ink)", paddingBottom: 4 }}>
-              info@thirdrockrealty.in
+            <a href="mailto:info@zirakpurproperty.com" className="uc" style={{ fontSize: 11, letterSpacing: "0.16em", marginTop: 8, borderBottom: "1px solid var(--ink)", paddingBottom: 4 }}>
+              info@zirakpurproperty.com
             </a>
           </div>
         </div>
@@ -1371,7 +1371,7 @@ function Footer() {
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
               <Crown dark />
-              <div className="clash" style={{ color: "#f6f6f6", fontSize: 20, letterSpacing: "-0.03em" }}>Third Rock Realty</div>
+              <div className="clash" style={{ color: "#f6f6f6", fontSize: 20, letterSpacing: "-0.03em" }}>Zirakpur Property</div>
             </div>
             <p style={{ marginTop: 20, fontSize: 14, lineHeight: 1.65, maxWidth: 300 }}>
               Real estate agency & property experts in the Mohali tri-city. GMADA/RERA accredited. SCO 1, 2nd Floor, Sector 79, SAS Nagar, Punjab 140308.
@@ -1381,14 +1381,14 @@ function Footer() {
           <FooterCol head="Practice" links={[["Residential", "#"], ["Commercial", "#"], ["Land & Plots", "#"], ["NRI Services", "#"]]} />
           <FooterCol head="Contact" links={[
             [<span><IconPhone/> +91 XXXXX XXXXX</span>, "tel:+91XXXXXXXXXX"],
-            [<span><IconMail/> info@thirdrockrealty.in</span>, "mailto:info@thirdrockrealty.in"],
+            [<span><IconMail/> info@zirakpurproperty.com</span>, "mailto:info@zirakpurproperty.com"],
             [<span><IconPin/> SCO 1, Sector 79, SAS Nagar</span>, "#"],
-            [<span><IconInsta/> @thirdrockrealty</span>, "#"],
-            [<span><IconYouTube/> @thirdrockrealty</span>, "#"],
+            [<span><IconInsta/> @zirakpurproperty</span>, "#"],
+            [<span><IconYouTube/> @zirakpurproperty</span>, "#"],
           ]} />
         </div>
         <div style={{ borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: 24, display: "flex", justifyContent: "space-between", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
-          <div className="uc" style={{ fontSize: 10, letterSpacing: "0.18em" }}>© 2026 Third Rock Realty — All rights reserved</div>
+          <div className="uc" style={{ fontSize: 10, letterSpacing: "0.18em" }}>© 2026 Zirakpur Property — All rights reserved</div>
           <div className="uc" style={{ fontSize: 10, letterSpacing: "0.18em" }}>PB-RERA · GMADA · JLPL Empanelled</div>
         </div>
       </div>
@@ -1449,7 +1449,7 @@ function InstagramFab() {
 function WhatsAppFab() {
   const [hover, setHover] = useState(false);
   const phone = "91XXXXXXXXXX";
-  const text = encodeURIComponent("Hello Third Rock Realty — I would like to enquire about a property listing.");
+  const text = encodeURIComponent("Hello Zirakpur Property — I would like to enquire about a property listing.");
   return (
     <a
       href={`https://wa.me/${phone}?text=${text}`}

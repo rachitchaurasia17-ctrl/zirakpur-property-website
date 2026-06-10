@@ -7,10 +7,10 @@
 const GROQ_KEY = ""; // Add your Groq API key here
 const GROQ_MODEL = "llama-3.3-70b-versatile";
 
-const SYSTEM_PROMPT = `You are Property AI, the digital concierge for Third Rock Realty — a trusted real estate agency in the Mohali tri-city (Mohali, Chandigarh, Zirakpur, Kharar, New Chandigarh).
+const SYSTEM_PROMPT = `You are Property AI, the digital concierge for Zirakpur Property — a trusted real estate agency in the Mohali tri-city (Mohali, Chandigarh, Zirakpur, Kharar, New Chandigarh).
 
 Firm facts:
-- Firm: Third Rock Realty
+- Firm: Zirakpur Property
 - Office: SCO 1, 2nd Floor, Sector 79, Sahibzada Ajit Singh Nagar, Punjab 140308
 - Phone: +91 XXXXX XXXXX
 - GMADA empanelled, RERA registered (PB-RERA)

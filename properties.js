@@ -1,4 +1,4 @@
-// Property catalogue for Third Rock Realty.
+// Property catalogue for Zirakpur Property.
 // Mohali/Tricity sector references; prices indicative of the 2026 market.
 window.TR_PROPERTIES = window.RS_PROPERTIES = [
   {
