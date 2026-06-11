@@ -68,11 +68,10 @@ function PropertyAI({ onSchedule }) {
     }
 
     try {
-      const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+      const res = await fetch("/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": "Bearer " + GROQ_KEY,
         },
         body: JSON.stringify({
           model: GROQ_MODEL,
