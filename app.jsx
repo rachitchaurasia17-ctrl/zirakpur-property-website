@@ -285,7 +285,7 @@ function Hero({ active }) {
           <div>
             <div className="uc" style={{ fontSize: 10, color: "rgba(255,255,255,0.5)", letterSpacing: "0.22em", marginBottom: 8 }}>The Office</div>
             <div className="clash" style={{ fontSize: 16, letterSpacing: "-0.02em", color: "#ffffff", fontWeight: 500 }}>
-              SCO 1, 2nd Floor · Sector 79, SAS Nagar
+              Zirakpur
             </div>
           </div>
           <div style={{ display: "flex", gap: 18, alignItems: "center", flexWrap: "wrap" }}>
@@ -1208,7 +1208,7 @@ function About() {
             <div style={{ position: "absolute", left: 16, right: 16, bottom: 14, color: "#f6f6f6", display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 12 }}>
               <div>
                 <div className="uc" style={{ fontSize: 9, letterSpacing: "0.18em", opacity: 0.8 }}>The Office</div>
-                <div className="clash" style={{ fontSize: 15, letterSpacing: "-0.02em", marginTop: 4, fontWeight: 600 }}>SCO 1, 2nd Floor · Sector 79 · SAS Nagar</div>
+                <div className="clash" style={{ fontSize: 15, letterSpacing: "-0.02em", marginTop: 4, fontWeight: 600 }}>Zirakpur</div>
               </div>
               <div className="uc" style={{ fontSize: 10, letterSpacing: "0.16em", border: "1px solid rgba(246,246,246,0.5)", padding: "6px 10px", borderRadius: 999, whiteSpace: "nowrap" }}>Get directions →</div>
             </div>
@@ -1266,7 +1266,7 @@ function DeskBanner() {
             </div>
             <div className="desk-row">
               <div className="desk-row-k">In person</div>
-              <div className="desk-row-v">SCO 1, 2nd Floor<br/>Sector 79 · SAS Nagar · Punjab · 140308</div>
+              <div className="desk-row-v">Zirakpur</div>
             </div>
             <button onClick={openBook} className="desk-button">
               Schedule a viewing →
@@ -1290,8 +1290,7 @@ function FooterMast() {
             <ul className="foot-list">
               <li><a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a></li>
               <li><a href="mailto:info@zirakpurproperty.com">info@zirakpurproperty.com</a></li>
-              <li><span>SCO 1, 2nd Floor</span></li>
-              <li><span>Sector 79 · SAS Nagar · 140308</span></li>
+              <li><span>Zirakpur</span></li>
             </ul>
           </div>
           <div>
@@ -1374,7 +1373,7 @@ function Footer() {
               <div className="clash" style={{ color: "#f6f6f6", fontSize: 20, letterSpacing: "-0.03em" }}>Zirakpur Property</div>
             </div>
             <p style={{ marginTop: 20, fontSize: 14, lineHeight: 1.65, maxWidth: 300 }}>
-              Real estate agency & property experts in the Mohali tri-city. GMADA/RERA accredited. SCO 1, 2nd Floor, Sector 79, SAS Nagar, Punjab 140308.
+              Real estate agency & property experts in the Mohali tri-city. GMADA/RERA accredited. Zirakpur.
             </p>
           </div>
           <FooterCol head="Navigate" links={[["Portfolio", "#portfolio"], ["Practice", "#practice"], ["Services", "#insights"], ["About", "#about"]]} />
@@ -1382,7 +1381,7 @@ function Footer() {
           <FooterCol head="Contact" links={[
             [<span><IconPhone/> +91 XXXXX XXXXX</span>, "tel:+91XXXXXXXXXX"],
             [<span><IconMail/> info@zirakpurproperty.com</span>, "mailto:info@zirakpurproperty.com"],
-            [<span><IconPin/> SCO 1, Sector 79, SAS Nagar</span>, "#"],
+            [<span><IconPin/> Zirakpur</span>, "#"],
             [<span><IconInsta/> @zirakpurproperty</span>, "#"],
             [<span><IconYouTube/> @zirakpurproperty</span>, "#"],
           ]} />
